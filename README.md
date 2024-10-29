@@ -46,3 +46,4 @@ RPG Maker Translator is a Python tool designed for automating the translation of
 
 ## Requirements
 - **Internet Connection**: Required for translation.
+- **Python Version**: Requires Python 3.6 or higher.
