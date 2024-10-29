@@ -60,7 +60,7 @@ def translate_file(file_path, dst='en', log_file=None):
     translated_strings = 0
     total_strings = sum(1 for item in data if isinstance(item, dict) and 'list' in item)
 
-    start_time = time.time()  # Начало отсчета времени
+    start_time = time.time()
     if isinstance(data, list):
         for item in data:
             if isinstance(item, dict) and 'list' in item:
